@@ -13,7 +13,7 @@ stages:
         pool:
           vmImage: "windows-latest"
         container:
-          image: docker pull uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
+          image: uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
           endpoint: uipathrobotmp
 
         steps:
@@ -32,7 +32,7 @@ stages:
         pool:
           vmImage: "windows-latest"
         container:
-          image: docker pull uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
+          image: uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
           endpoint: uipathrobotmp
         environment: uat
         strategy:
@@ -57,7 +57,7 @@ stages:
         pool:
           vmImage: "windows-latest"
         container:
-          image: docker pull uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
+          image: uipathrobotmp.azurecr.io/mpalkadockerrobotmp:43
           endpoint: uipathrobotmp
         environment: prod
         strategy:
